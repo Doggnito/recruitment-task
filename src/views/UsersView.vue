@@ -1,15 +1,15 @@
 <template>
-  <Home />
+  <Users />
 </template>
 
 <script>
 import { defineComponent } from 'vue';
-import Home from '../components/Home.vue';
+import Users from '../components/Users.vue';
 
 export default defineComponent({
-  name: 'UserView',
+  name: 'UsersView',
   components: {
-    Home,
+    Users,
   },
 });
 </script>
